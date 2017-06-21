@@ -1,0 +1,29 @@
+{
+  "name": "prettier-romajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint",
+    "eslintfix": "eslint --fix",
+    "eslint-conflicts": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
+    "prettier": "prettier --single-quote --write"
+  },
+  "keywords": [
+    "prettier",
+    "eslint",
+    "eslint",
+    "--fix"
+  ],
+  "author": "Marco Liberati <dej611@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.2.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "eslint": "^4.0.0",
+    "eslint-plugin-react": "^7.1.0",
+    "prettier": "^1.4.4"
+  }
+}
