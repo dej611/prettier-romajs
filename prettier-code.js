@@ -1,6 +1,6 @@
 if( false ){ foo() }
 
-const f = function fn(a,b,c) { let b = 5, f = 6; return a + b + c }
+const f = function fn(a,b,c) { let g = 5, f = 6; return a + b + c }
 
 const array = ['first', 'second', 'third', 'fourth']; const object = {}
 
